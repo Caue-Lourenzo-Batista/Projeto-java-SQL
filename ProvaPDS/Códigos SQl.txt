@@ -1,0 +1,13 @@
+Create database prova;
+
+use prova;
+
+create table recibos (
+    -> data DATE,
+    -> nome VARCHAR(70),
+    -> quantidade INT,
+    -> preco FLOAT,
+    -> valorTotal FLOAT
+    -> );
+
+show tables;
